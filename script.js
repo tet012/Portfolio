@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Create project container
                 const projectElement = document.createElement('div');
-                projectElement.classList.add('flex', 'flex-col', 'gap-y-16', 'opacity-0', 'animate-fade-in', 'p-4');
+                projectElement.classList.add('flex', 'flex-col', 'opacity-0', 'animate-fade-in', 'p-4', 'snap-start', 'justify-between', 'h-screen');
                 projectElement.id = `project-${index}`;
 
                 // Create header section
