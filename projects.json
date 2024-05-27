@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Panopticon",
+        "chapeau": "Description for project two.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat eros at auctor pulvinar. Ut sollicitudin libero id porta malesuada. Mauris feugiat interdum aliquet. Cras euismod dolor diam, volutpat dapibus est posuere a. Curabitur lacinia hendrerit ex, ac volutpat est feugiat vitae. Nulla facilisis mauris et ullamcorper luctus. Nunc a porttitor mauris. Nullam semper mi a bibendum maximus. Donec ullamcorper congue libero, vel dignissim magna placerat sit amet. Cras elementum consectetur volutpat. Ut mauris justo, maximus sit amet maximus pretium, semper in ligula. Integer eget elit rhoncus, mattis dolor sed, blandit leo. Mauris pellentesque mauris in quam condimentum, ut aliquam est malesuada.",
+        "images": [
+            "img/panopticon/122.png",
+            "img/panopticon/226.png",
+            "img/panopticon/354.png",
+            "img/panopticon/32.png"
+        ],
+        "links": [
+            "https://opensea.io/collection/panopticon-by-teto",
+            "https://blur.io/collection/panopticon-by-teto",
+            "https://fingerprintsdao.xyz/studio"
+        ],
+        "featureLink": "https://example.com/project-two/feature"
+    },
+    {
+        "name": "Raeminiscence",
+        "chapeau": "Description for project two.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat eros at auctor pulvinar. Ut sollicitudin libero id porta malesuada. Mauris feugiat interdum aliquet. Cras euismod dolor diam, volutpat dapibus est posuere a. Curabitur lacinia hendrerit ex, ac volutpat est feugiat vitae. Nulla facilisis mauris et ullamcorper luctus. Nunc a porttitor mauris. Nullam semper mi a bibendum maximus. Donec ullamcorper congue libero, vel dignissim magna placerat sit amet. Cras elementum consectetur volutpat. Ut mauris justo, maximus sit amet maximus pretium, semper in ligula. Integer eget elit rhoncus, mattis dolor sed, blandit leo. Mauris pellentesque mauris in quam condimentum, ut aliquam est malesuada.",
+        "images": [
+            "img/raeminiscence/birds.avif",
+            "img/raeminiscence/movement.avif",
+            "img/raeminiscence/mrDream.avif",
+            "img/raeminiscence/pegasusVI.avif"
+        ],
+        "links": [
+            "https://foundation.app/collection/raem",
+            "https://opensea.io/collection/raeminiscence"
+        ],
+        "featureLink": "https://example.com/project-two/feature"
+    },
+    {
+        "name": "Présence",
+        "chapeau": "Description for project two.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat eros at auctor pulvinar. Ut sollicitudin libero id porta malesuada. Mauris feugiat interdum aliquet. Cras euismod dolor diam, volutpat dapibus est posuere a. Curabitur lacinia hendrerit ex, ac volutpat est feugiat vitae. Nulla facilisis mauris et ullamcorper luctus. Nunc a porttitor mauris. Nullam semper mi a bibendum maximus. Donec ullamcorper congue libero, vel dignissim magna placerat sit amet. Cras elementum consectetur volutpat. Ut mauris justo, maximus sit amet maximus pretium, semper in ligula. Integer eget elit rhoncus, mattis dolor sed, blandit leo. Mauris pellentesque mauris in quam condimentum, ut aliquam est malesuada.",
+        "images": [
+            "img/presence/aqua.avif",
+            "img/presence/entangled.avif",
+            "img/presence/raindance.avif",
+            "img/presence/rationalize.avif"
+        ],
+        "links": [
+            "https://opensea.io/collection/panopticon-by-teto"
+        ],
+        "featureLink": "https://example.com/project-two/feature"
+    },
+    {
+        "name": "Divergence",
+        "chapeau": "Description for project two.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat eros at auctor pulvinar. Ut sollicitudin libero id porta malesuada. Mauris feugiat interdum aliquet. Cras euismod dolor diam, volutpat dapibus est posuere a. Curabitur lacinia hendrerit ex, ac volutpat est feugiat vitae. Nulla facilisis mauris et ullamcorper luctus. Nunc a porttitor mauris. Nullam semper mi a bibendum maximus. Donec ullamcorper congue libero, vel dignissim magna placerat sit amet. Cras elementum consectetur volutpat. Ut mauris justo, maximus sit amet maximus pretium, semper in ligula. Integer eget elit rhoncus, mattis dolor sed, blandit leo. Mauris pellentesque mauris in quam condimentum, ut aliquam est malesuada.",
+        "images": [
+            "img/divergence/lost.avif",
+            "img/divergence/overgrown.avif",
+            "img/divergence/rupture.avif",
+            "img/divergence/unexpected.avif"
+        ],
+        "links": [
+            "https://foundation.app/collection/div",
+            "https://opensea.io/collection/divergence-v2"
+        ],
+        "featureLink": "https://example.com/project-two/feature"
+    },
+    {
+        "name": "The Creepz",
+        "chapeau": "Description for project two.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat eros at auctor pulvinar. Ut sollicitudin libero id porta malesuada. Mauris feugiat interdum aliquet. Cras euismod dolor diam, volutpat dapibus est posuere a. Curabitur lacinia hendrerit ex, ac volutpat est feugiat vitae. Nulla facilisis mauris et ullamcorper luctus. Nunc a porttitor mauris. Nullam semper mi a bibendum maximus. Donec ullamcorper congue libero, vel dignissim magna placerat sit amet. Cras elementum consectetur volutpat. Ut mauris justo, maximus sit amet maximus pretium, semper in ligula. Integer eget elit rhoncus, mattis dolor sed, blandit leo. Mauris pellentesque mauris in quam condimentum, ut aliquam est malesuada.",
+        "images": [
+            "img/creepz/122.svg",
+            "img/creepz/125.svg",
+            "img/creepz/130.svg",
+            "img/creepz/330.svg"
+        ],
+        "links": [
+            "https://opensea.io/collection/thecreepz"
+        ],
+        "featureLink": "https://example.com/project-two/feature"
+    },
+    {
+        "name": "Dystolepsia",
+        "chapeau": "Description for project two.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse placerat eros at auctor pulvinar. Ut sollicitudin libero id porta malesuada. Mauris feugiat interdum aliquet. Cras euismod dolor diam, volutpat dapibus est posuere a. Curabitur lacinia hendrerit ex, ac volutpat est feugiat vitae. Nulla facilisis mauris et ullamcorper luctus. Nunc a porttitor mauris. Nullam semper mi a bibendum maximus. Donec ullamcorper congue libero, vel dignissim magna placerat sit amet. Cras elementum consectetur volutpat. Ut mauris justo, maximus sit amet maximus pretium, semper in ligula. Integer eget elit rhoncus, mattis dolor sed, blandit leo. Mauris pellentesque mauris in quam condimentum, ut aliquam est malesuada.",
+        "images": [
+            "img/dystolepsia/bluemoon.avif",
+            "img/dystolepsia/thinkmuch.avif",
+            "img/dystolepsia/amadeus.avif",
+            "img/dystolepsia/temptation.avif"
+        ],
+        "links": [
+            "https://opensea.io/collection/dystolepsia1"
+        ],
+        "featureLink": "https://example.com/project-two/feature"
+    }
+]

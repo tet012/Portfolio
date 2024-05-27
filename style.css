@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(6px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveX {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(6px);
+    }
+}
+
+@layer utilities {
+    .animate-fade-in {
+        opacity: 0;
+        transform: translateX(6px);
+        animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    .animate-show {
+        opacity: 1;
+    }
+
+    .menuActive {
+        color: black;
+        text-decoration: underline;
+        animation: moveX 0.15s ease-in-out;
+        transform: translateX(6px);
+    }
+}
+
+.hidden {
+    display: none;
+}
