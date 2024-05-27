@@ -20,8 +20,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Create project container
                 const projectElement = document.createElement('div');
-                projectElement.classList.add('flex', 'flex-col', 'opacity-0', 'animate-fade-in', 'p-4', 'snap-start', 'justify-between', 'h-screen');
+                projectElement.classList.add('flex', 'flex-col', 'opacity-0', 'animate-fade-in', 'snap-start', 'justify-between', 'md:h-screen', 'border-t', 'solid', 'border-neutral-200');
                 projectElement.id = `project-${index}`;
+
+                // Create main content container
+                const contentContainer = document.createElement('div');
+                contentContainer.classList.add('flex', 'flex-col', 'gap-y-16', 'justify-center', 'flex-grow', 'p-4');
 
                 // Create header section
                 const headerElement = document.createElement('div');
@@ -44,21 +48,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 headerElement.appendChild(descriptionElement);
 
+                contentContainer.appendChild(headerElement);
+
                 // Create image container
                 const imgContElement = document.createElement('div');
-                imgContElement.classList.add('flex', 'rounded-md', 'overscroll-contain', 'grid', 'grid-cols-2', 'md:grid-cols-4', 'gap-1');
+                imgContElement.classList.add('flex', 'rounded-md', 'grid', 'grid-cols-2', 'md:grid-cols-4', 'gap-1');
 
                 project.images.forEach(imageSrc => {
                     const imgElement = document.createElement('img');
-                    imgElement.classList.add('rounded-md', 'cursor-pointer');
+                    imgElement.classList.add('rounded-md');
                     imgElement.src = imageSrc;
                     imgElement.alt = project.name;
                     imgContElement.appendChild(imgElement);
                 });
 
+                contentContainer.appendChild(imgContElement);
+
                 // Create footer section
                 const footerElement = document.createElement('div');
-                footerElement.classList.add('flex', 'gap-y-4', 'justify-between', 'align-middle', 'md:flex-row', 'flex-col', 'border-t', 'solid', 'border-neutral-200', 'pt-4');
+                footerElement.classList.add('flex', 'gap-y-4', 'justify-between', 'align-middle', 'items-center', 'flex', 'border-t', 'solid', 'border-neutral-200', 'p-4');
 
                 const linksContainer = document.createElement('div');
                 linksContainer.classList.add('flex', 'gap-4', 'md:align-middle', 'md:justify-center');
@@ -81,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const collectionLink = document.createElement('a');
                 collectionLink.href = project.featureLink;
-                collectionLink.classList.add('text-center', 'underline');
-                collectionLink.textContent = "View full collection";
+                collectionLink.classList.add('text-center', 'rounded-md', 'text-neutral-400', 'hover:text-neutral-600', 'active:text-neutral-600', 'transition');
+                collectionLink.textContent = "+";
 
                 fullCollectionLink.appendChild(collectionLink);
 
@@ -90,8 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 footerElement.appendChild(fullCollectionLink);
 
                 // Assemble project element
-                projectElement.appendChild(imgContElement);
-                projectElement.appendChild(headerElement);
+                projectElement.appendChild(contentContainer);
                 projectElement.appendChild(footerElement);
 
                 projectsContainer.appendChild(projectElement);

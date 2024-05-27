@@ -9,14 +9,14 @@
 </head>
 
 <body class="overscroll-contain max-h-screen">
-    <div class="grid md:grid-cols-10 grid-cols-1">
+    <div class="grid md:grid-cols-12 grid-cols-1">
         <div id="sidebar"
-            class="md:h-svh md:col-span-1 flex md:flex-col justify-between md:justify-normal p-4 top-2 left-2 border-r border-neutral-100">
+            class="md:h-svh md:col-span-2 flex md:flex-col justify-between md:justify-normal p-4 top-2 left-2 border-r border-neutral-100">
             <div id="logo">
                 <h1 class="">teto</h1>
             </div>
 
-            <div id="menu" class="flex md:h-svh md:flex-col flex-row justify-center md:gap-0">
+            <div id="menu" class="md:flex md:h-svh md:flex-col flex-row justify-center md:gap-0 hidden">
                 <!-- Project names will be inserted here -->
             </div>
 
@@ -26,7 +26,7 @@
         </div>
 
         <div id="content"
-            class="col-span-1 md:col-span-9 flex flex-col overflow-auto h-svh bg-neutral-50 snap-y snap-mandatory">
+            class="col-span-1 md:col-span-10 flex flex-col overflow-auto md:h-svh bg-neutral-50 snap-y snap-mandatory">
             <div class="flex flex-col pb-24 snap-y snap-mandatory" id="projects"></div>
         </div>
         <script src="script.js"></script>

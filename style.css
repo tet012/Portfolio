@@ -21,6 +21,7 @@
 
     to {
         transform: translateX(6px);
+        font-style: italic;
     }
 }
 
@@ -28,6 +29,7 @@
     .animate-fade-in {
         opacity: 0;
         transform: translateX(6px);
+
         animation: fadeIn 1s ease-in-out forwards;
     }
 
@@ -37,8 +39,9 @@
 
     .menuActive {
         color: black;
+        font-style: italic;
         text-decoration: underline;
-        animation: moveX 0.15s ease-in-out;
+        animation: moveX 0.15s ease-out;
         transform: translateX(6px);
     }
 }
@@ -72,18 +75,13 @@
 
 }
 
-
-.hidden {
-    display: none;
-}
-
 .hidden {
     display: none;
 }
 
 .snap-y {
     scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .snap-start {

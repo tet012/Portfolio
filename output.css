@@ -612,12 +612,8 @@ video {
   display: grid;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-svh {
-  height: 100svh;
+.hidden {
+  display: none;
 }
 
 .max-h-screen {
@@ -626,6 +622,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .cursor-pointer {
@@ -663,6 +663,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -746,10 +750,6 @@ video {
   padding-bottom: 6rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -814,8 +814,9 @@ video {
 
 .menuActive {
   color: black;
+  font-style: italic;
   text-decoration: underline;
-  animation: moveX 0.15s ease-in-out;
+  animation: moveX 0.15s ease-out;
   transform: translateX(6px);
 }
 
@@ -848,6 +849,7 @@ video {
 
   to {
     transform: translateX(6px);
+    font-style: italic;
   }
 }
 
@@ -873,7 +875,7 @@ video {
 
 .snap-y {
   scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .snap-start {
@@ -900,12 +902,20 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-1 {
-    grid-column: span 1 / span 1;
+  .md\:col-span-10 {
+    grid-column: span 10 / span 10;
   }
 
-  .md\:col-span-9 {
-    grid-column: span 9 / span 9;
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-screen {
+    height: 100vh;
   }
 
   .md\:h-svh {
@@ -921,8 +931,8 @@ video {
          columns: 2;
   }
 
-  .md\:grid-cols-10 {
-    grid-template-columns: repeat(10, minmax(0, 1fr));
+  .md\:grid-cols-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 
   .md\:grid-cols-4 {
